@@ -7,22 +7,22 @@ and bottle trash etc. by connecting People who want to share it with those peopl
 This application was written with Tigergraph Database 100%, PHP, Ajax, JQUERY, Bootstraps, Css etc via Tigergraph Curl Restful API Calls.
 All Database Transactions are done with Tigergraph Database Analytics 100% via Tigergraph Restful API Curl Calls using PHP Programming Language.
 
+**Developer:**  Nkemjika Gwacham
 
+**How To Test the Application:**
 
-How To Test the Application:
+Step 1.) Install **Xampp Server** on your Laptop/Desktop and ensure that PHP is installed and running.
 
-Step 1.) Install Xampp Server on your Laptop/Desktop and ensure that PHP is installed and running.
-
-Step 2.) You will need to First generate your Tigergraph Access token.  To this effect, edit tigergraph_token_generator.php file.
+Step 2.) You will need to First generate your Tigergraph Access token.  To this effect, edit **tigergraph_token_generator.php** file.
 then enter your Tigergraph Cloud Database Credentials where appropriates.
 
-A.) Tigergraph Cloud Database username
+**A.) Tigergraph Cloud Database username
 
 B.) Tigergraph Cloud Database Password
 
 C.) Tigergraph Cloud Database Graph Name
 
-D.) Tigergraph Cloud Database URL Instance  Eg: https://example.i.tgcloud.io
+D.) Tigergraph Cloud Database URL Instance  Eg: https://example.i.tgcloud.io**
 
 Once your are done, save it and run the Script at browser eg http://localhost/planet_savers_connect/tigergraph_token_generator.php
 
@@ -32,12 +32,12 @@ Once your are done, save it and run the Script at browser eg http://localhost/pl
 
 
 
-Step 3.) Open Tigergraphdb_table_vertex.txt file so that you will see all the Tigergraph vertexes and their respective data types/attributes that I created.
+Step 3.) Open **Tigergraphdb_table_vertex.txt** file so that you will see all the Tigergraph vertexes and their respective data types/attributes that I created.
 
 use the sample to create your own vertex in your graph within your Tigergraph Database Instance.
 
 
-Step 4.) Edit settings.php files and enter all the necessary  Tigergraph Acess tokens, Tigergraph Credentials, Google API Keys etc. where appropriates.
+Step 4.) Edit **settings.php** files and enter all the necessary  Tigergraph Acess tokens, Tigergraph Credentials, Google API Keys etc. where appropriates.
 
 In settings.php file you will only need to edit and enter where appropriates.
 
@@ -70,7 +70,7 @@ Note that Email Server configuration in the settings.php file is optional and ma
 The essence is just to enable you to just send email messages from within the application.
 
 
-Step 5.)It is time to run the application
+**Step 5.)It is time to run the application**
 
 Ensure that Php is still running in the xampp Server once again. Then Call up your browser and the application will be running at 
 
